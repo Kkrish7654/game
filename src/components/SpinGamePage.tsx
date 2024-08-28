@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { ISpinWheelProps } from "./SpinWheel.interface";
 import SpinWheel from "./SpinWheel";
 import Navbar from "./Navbar";

@@ -1,4 +1,3 @@
-import React from "react";
 import GameImage from "../assets/image/spinner.jpeg";
 import ColorImage from "../assets/image/color.jpg";
 import { Link } from "react-router-dom";
