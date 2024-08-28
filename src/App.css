@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+canvas {
+  margin-bottom: 20px;
+}
+
+.wheel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spin-btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#spin-btn:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.spinner-arrow {
+  position: absolute;
+  bottom: -50px; /* Position the needle at the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+}
+
+#final-value {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
